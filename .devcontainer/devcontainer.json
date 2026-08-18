@@ -16,5 +16,7 @@
   "remoteEnv": {
     "TACHIDUBB_OPEN_BROWSER": "0",
     "PYTHONUNBUFFERED": "1"
-  }
+  },
+  "postCreateCommand": "bash .devcontainer/setup_codespace.sh",
+  "postStartCommand": "bash .devcontainer/start_codespace.sh"
 }
